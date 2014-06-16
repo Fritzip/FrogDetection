@@ -1,2 +1,10 @@
 path(path,[pwd '/']);
-addpath([[pwd '/'] 'Data']);
+%addpath([[pwd '/'] '00_Data']);
+addpath([[pwd '/'] 'filters']);
+addpath([[pwd '/'] 'fourier']);
+addpath([[pwd '/'] 'gui']);
+addpath([[pwd '/'] 'others']);
+addpath([[pwd '/'] 'paths']);
+addpath([[pwd '/'] 'peaks']);
+addpath([[pwd '/'] 'ref']);
+addpath([[pwd '/'] 'spectro']);
