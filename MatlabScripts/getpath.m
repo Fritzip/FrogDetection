@@ -4,7 +4,8 @@ function foldpath = getpath(numfolder, varargin)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    path = 'C:\Users\Bernadette\Desktop\Maxime\FrogDetection\Data\';
+    wd = fileparts(pwd); 
+    path = [[wd '/'] 'Data/']; %'C:\Users\Bernadette\Desktop\Maxime\FrogDetection\Data\';
     folder = char('EnregistrementsPlayback\', 'playback\', 'acquisition\');
 
     folder = folder(numfolder,:);

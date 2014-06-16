@@ -1,4 +1,5 @@
 clear all; clc; close all;
+frog_detection_paths;
 
 % Launcher - get algorithm parameters, mode and files
 [n_, NREDUC_, LOW_, HIGH_, NBPEAKS_, PKSEP_, PKSAMEW_, WINDET_, PLOT_, PLAIN_, CHECK_, files_, LAUNCH_] = launcher;
